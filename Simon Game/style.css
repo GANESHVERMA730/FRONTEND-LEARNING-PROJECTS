@@ -1,0 +1,133 @@
+/* body { 
+  text-align: center;
+}
+
+.btn{
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2.5rem;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: greenyellow;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.flash{
+  background-color: white;
+}
+
+.userFlash{
+  background-color: rgb(25, 0, 254);
+} */
+
+
+body {
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+  min-height: 40px;
+}
+
+/* Container */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Rows */
+.line-one,
+.line-two {
+  display: flex;
+}
+
+/* Game Buttons */
+.btn {
+  height: 180px;
+  width: 180px;
+  border-radius: 20%;
+  border: 8px solid rgba(0, 0, 0, 0.7);
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+/* Button Press Effect */
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Colors with gradients */
+.red {
+  background: linear-gradient(145deg, #ff4b4b, #b30000);
+}
+
+.yellow {
+  background: linear-gradient(145deg, #ffe600, #b3a100);
+}
+
+.green {
+  background: linear-gradient(145deg, #4dff88, #009933);
+}
+
+.purple {
+  background: linear-gradient(145deg, #c44dff, #6600cc);
+}
+
+/* Game flash animation */
+.flash {
+  background: white !important;
+  box-shadow: 0 0 40px white;
+  transform: scale(1.1);
+}
+
+/* User click flash */
+.userFlash {
+  background: #00b3ff !important;
+  box-shadow: 0 0 40px #00b3ff;
+  transform: scale(1.05);
+}
+
