@@ -42,10 +42,10 @@ function addTask() {
   renderTasks();
 }
 
-// 🔥 FIX — button event
+//  FIX — button event
 addBtn.addEventListener("click", addTask);
 
-// 🔥 Add task with Enter key
+//  Add task with Enter key
 taskInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") addTask();
 });
